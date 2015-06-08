@@ -1,0 +1,22 @@
+{
+    "name": "klimesf/mailgun",
+    "description": "Mailgun integration into Nette Framework.",
+    "type": "library",
+    "keywords": ["mailgun", "nette", "mail", "mailer"],
+    "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "authors": [
+        {
+            "name": "Filip Klimes",
+            "email": "filip@filipklimes.cz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "mailgun/mailgun-php": "^1.8",
+        "nette/mail": "^2.3"
+    },
+    "require-dev": {
+        "nette/tester": "^1.4"
+    }
+}
