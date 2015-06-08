@@ -1,0 +1,19 @@
+common:
+	php:
+		date.timezone: Europe/Prague
+
+	extensions:
+		mailgun: Klimesf\Mailgun\DI\MailgunExtension
+
+incorrect1 < common:
+	mailgun:
+		key: 'secret'
+
+incorrect2 < common:
+	mailgun:
+		domain: 'domain'
+
+correct < common:
+	mailgun:
+		key: 'secret'
+		domain: 'domain'
